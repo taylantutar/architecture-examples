@@ -11,17 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.ApiGateway", "src\ApiG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F60D1B08-C6C9-4928-9A0F-274243C311F1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasketService", "BasketService", "{EEB6DC34-D6C0-41CD-BA06-869D5BB1DCE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{EEB6DC34-D6C0-41CD-BA06-869D5BB1DCE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.BasketService", "src\Services\BasketService\Ecom.BasketService\Ecom.BasketService.csproj", "{A52D1806-B023-4EE3-AC9D-B4F397C3A81A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{EAA12CB9-B60B-44A6-9D8E-CB3CF19772C6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{EAA12CB9-B60B-44A6-9D8E-CB3CF19772C6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{B9F66CC1-D74E-49F3-AE95-34493E83BFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.IdentitService", "src\Services\IdentityService\Ecom.IdentitService\Ecom.IdentitService.csproj", "{BFF78E05-F519-47D0-B4A4-663867DC5CA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog", "src\Services\Catalog\Ecom.Catalog.Api\Ecom.Catalog.Api.csproj", "{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{B9F66CC1-D74E-49F3-AE95-34493E83BFF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Model", "src\Services\Catalog\Ecom.Catalog.Api.Model\Ecom.Catalog.Api.Model.csproj", "{42CF4A91-70BD-4D22-8DF3-F417400E8E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.CatalogService", "src\Services\CatalogService\Ecom.CatalogService\Ecom.CatalogService.csproj", "{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Entity", "src\Services\Catalog\Ecom.Catalog.Api.Entity\Ecom.CatalogService.Entity.csproj", "{9E9C7F97-EFCD-4C06-8837-CCA750984088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +52,14 @@ Global
 		{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CF4A91-70BD-4D22-8DF3-F417400E8E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CF4A91-70BD-4D22-8DF3-F417400E8E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CF4A91-70BD-4D22-8DF3-F417400E8E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CF4A91-70BD-4D22-8DF3-F417400E8E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9C7F97-EFCD-4C06-8837-CCA750984088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9C7F97-EFCD-4C06-8837-CCA750984088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9C7F97-EFCD-4C06-8837-CCA750984088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9C7F97-EFCD-4C06-8837-CCA750984088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5CE6BD8D-8DC0-4E26-8C6D-919E3A59F2E0} = {7786AA94-4545-46C2-9E2B-CD2CB260F90E}
@@ -64,5 +72,7 @@ Global
 		{BFF78E05-F519-47D0-B4A4-663867DC5CA3} = {EAA12CB9-B60B-44A6-9D8E-CB3CF19772C6}
 		{B9F66CC1-D74E-49F3-AE95-34493E83BFF5} = {F60D1B08-C6C9-4928-9A0F-274243C311F1}
 		{C1B9CA28-6831-424E-B57E-3EFC3981B1F1} = {B9F66CC1-D74E-49F3-AE95-34493E83BFF5}
+		{42CF4A91-70BD-4D22-8DF3-F417400E8E42} = {B9F66CC1-D74E-49F3-AE95-34493E83BFF5}
+		{9E9C7F97-EFCD-4C06-8837-CCA750984088} = {B9F66CC1-D74E-49F3-AE95-34493E83BFF5}
 	EndGlobalSection
 EndGlobal
