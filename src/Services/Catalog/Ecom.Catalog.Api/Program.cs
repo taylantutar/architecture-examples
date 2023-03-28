@@ -1,15 +1,29 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.Extensions.Configuration;    
+
+    
+
+var builder = WebApplication.CreateBuilder(args);
+
+var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+IConfiguration config = new ConfigurationBuilder()
+                                        .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+                                        .AddJsonFile("appsettings.json", optional: false)
+                                        .AddJsonFile($"appsettings.{environment}.json", optional: true)
+                                        .AddEnvironmentVariables()
+                                        .Build();
+builder.Configuration.AddConfiguration(config);
+
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHealthChecks();
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
