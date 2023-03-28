@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{B9F66CC1-D74E-49F3-AE95-34493E83BFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog", "src\Services\Catalog\Ecom.Catalog.Api\Ecom.Catalog.Api.csproj", "{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Api", "src\Services\Catalog\Ecom.Catalog.Api\Ecom.Catalog.Api.csproj", "{C1B9CA28-6831-424E-B57E-3EFC3981B1F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Model", "src\Services\Catalog\Ecom.Catalog.Api.Model\Ecom.Catalog.Api.Model.csproj", "{42CF4A91-70BD-4D22-8DF3-F417400E8E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Model", "src\Services\Catalog\Ecom.Catalog.Model\Ecom.Catalog.Model.csproj", "{42CF4A91-70BD-4D22-8DF3-F417400E8E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Entity", "src\Services\Catalog\Ecom.Catalog.Api.Entity\Ecom.CatalogService.Entity.csproj", "{9E9C7F97-EFCD-4C06-8837-CCA750984088}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Catalog.Entity", "src\Services\Catalog\Ecom.Catalog.Entity\Ecom.Catalog.Entity.csproj", "{9E9C7F97-EFCD-4C06-8837-CCA750984088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

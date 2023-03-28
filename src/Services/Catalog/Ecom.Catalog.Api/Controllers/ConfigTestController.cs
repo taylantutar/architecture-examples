@@ -18,7 +18,9 @@ public class ConfigTestController : ControllerBase
     [HttpGet(Name = "TestConfig")]
     public string Get()
     {
-        return _configuration["ConfigTest"].ToString();
+        var configTest = _configuration["ConfigTest"];
+
+        return configTest ?? "Not found configuration!!";
     }
 }
 
