@@ -5,7 +5,7 @@ namespace Ecom.Catalog.Service.Abstract
 {
 	public interface IProductService
 	{
-		public List<GetAllProductDto> GetAll();
+		public  List<GetAllProductDto> GetAll();
 	}
 }
 

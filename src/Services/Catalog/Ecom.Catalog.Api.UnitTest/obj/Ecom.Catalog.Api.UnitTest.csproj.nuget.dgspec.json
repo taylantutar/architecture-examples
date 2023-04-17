@@ -25,7 +25,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/Ecom.Catalog.Service.csproj": {
+                "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/Ecom.Catalog.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,6 +46,10 @@
               "target": "Package",
               "version": "[17.5.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -57,6 +65,194 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/Ecom.Catalog.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/Ecom.Catalog.Entity.csproj",
+        "projectName": "Ecom.Catalog.Entity",
+        "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/Ecom.Catalog.Entity.csproj",
+        "packagesPath": "/Users/taylantutar/.nuget/packages/",
+        "outputPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/taylantutar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/Ecom.Catalog.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/Ecom.Catalog.Model.csproj",
+        "projectName": "Ecom.Catalog.Model",
+        "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/Ecom.Catalog.Model.csproj",
+        "packagesPath": "/Users/taylantutar/.nuget/packages/",
+        "outputPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/taylantutar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/Ecom.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/Ecom.Catalog.Service.csproj",
+        "projectName": "Ecom.Catalog.Service",
+        "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/Ecom.Catalog.Service.csproj",
+        "packagesPath": "/Users/taylantutar/.nuget/packages/",
+        "outputPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/taylantutar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/Ecom.Catalog.Entity.csproj": {
+                "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Entity/Ecom.Catalog.Entity.csproj"
+              },
+              "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/Ecom.Catalog.Model.csproj": {
+                "projectPath": "/Users/taylantutar/Projects/micserref/src/Services/Catalog/Ecom.Catalog.Model/Ecom.Catalog.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [

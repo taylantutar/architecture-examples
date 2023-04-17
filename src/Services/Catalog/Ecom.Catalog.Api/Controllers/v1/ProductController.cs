@@ -11,6 +11,7 @@ namespace Ecom.Catalog.Api.Controllers.v1
     public class ProductController : ControllerBase
     {
         private readonly IProductService productService;
+        
 
         public ProductController(IProductService productService)
         {
@@ -18,9 +19,10 @@ namespace Ecom.Catalog.Api.Controllers.v1
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok(productService.GetAll());
+            var products = await Task.FromResult(productService.GetAll());
+            return Ok(products);
         }
     }
 }
