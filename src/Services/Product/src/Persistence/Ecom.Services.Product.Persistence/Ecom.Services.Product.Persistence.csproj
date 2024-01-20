@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Domain\Ecom.Services.Product.Domain\Ecom.Services.Product.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Application\Ecom.Services.Product.Application\Ecom.Services.Product.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
