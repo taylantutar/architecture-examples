@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecom.Services.Product.Persistence", "Ecom.Services.Product.Persistence.csproj", "{A59732EB-55BA-439E-8839-887BFEBA3CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecom.Services.Product.Persistence", "Ecom.Services.Product.Persistence.csproj", "{E7F322A8-66A6-469B-8BEB-2BCD0367A70C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A59732EB-55BA-439E-8839-887BFEBA3CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A59732EB-55BA-439E-8839-887BFEBA3CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A59732EB-55BA-439E-8839-887BFEBA3CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A59732EB-55BA-439E-8839-887BFEBA3CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F322A8-66A6-469B-8BEB-2BCD0367A70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F322A8-66A6-469B-8BEB-2BCD0367A70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F322A8-66A6-469B-8BEB-2BCD0367A70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F322A8-66A6-469B-8BEB-2BCD0367A70C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1CDAAB14-EA15-44F4-B0B3-FBAB7B27A280}
+		SolutionGuid = {81A1AF9F-A23D-43F2-8C78-C903C9EE923A}
 	EndGlobalSection
 EndGlobal
