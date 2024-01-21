@@ -1,6 +1,5 @@
-﻿using Ecom.Services.Product.Domain.Entities;
-
-namespace Ecom.Services.ProductDomain.Entities;
+﻿
+namespace Ecom.Services.Product.Domain.Entities;
 
 public class ProductEntity : BaseEntity
 {

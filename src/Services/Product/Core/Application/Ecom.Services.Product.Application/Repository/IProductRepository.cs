@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Ecom.Services.ProductDomain.Entities;
+using Ecom.Services.Product.Domain.Entities;
 
 namespace Ecom.Services.Product.Application.Repository
 {

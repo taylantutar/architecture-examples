@@ -17,7 +17,8 @@ namespace Ecom.Services.Product.Application.Mediatr.Query.Product
 
             public async Task<List<ProductViewModel>> Handle(GetAllProductQuery request, CancellationToken cancellationToken)
             {
-                return (await productRepository.GetAll()).Select(p => new ProductViewModel
+                var products = await productRepository.GetAll();
+                return products.Select(p => new ProductViewModel
                 {
                     Id = p.Id,
                     Name = p.Name,

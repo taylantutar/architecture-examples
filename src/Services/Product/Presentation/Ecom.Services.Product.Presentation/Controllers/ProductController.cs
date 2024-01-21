@@ -5,22 +5,23 @@ using Microsoft.AspNetCore.Mvc;
 namespace Ecom.Services.Product.Presentation.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ProductController : ControllerBase
 {
 
     private readonly ILogger<ProductController> _logger;
-    private readonly IMediator mediator;
+    private readonly IMediator _mediator;
 
-    public ProductController(ILogger<ProductController> logger)
+    public ProductController(ILogger<ProductController> logger, IMediator mediator)
     {
         _logger = logger;
+        _mediator = mediator;
     }
 
     [HttpGet]
     public async Task<IActionResult> Get()
     {
         var q = new GetAllProductQuery();
-        return Ok(await mediator.Send(q));
+        return Ok(await _mediator.Send(q));
     }
 }
