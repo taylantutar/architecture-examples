@@ -15,7 +15,7 @@ namespace Ecom.Services.Product.Persistence
                 opt.UseInMemoryDatabase("ecommerceDB");
             });
 
-            services.AddScoped<IProductRepository,ProductRepository>();
+            services.AddTransient<IProductRepository,ProductRepository>();
         }
     }
 }

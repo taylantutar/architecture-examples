@@ -6,6 +6,6 @@ namespace Ecom.Services.Product.Application.Repository
 {
     public interface IBaseRepository<T> where T:BaseEntity
     {
-        Task<List<T>> GetAll();
+        Task<List<T>> GetAllAsync();
     }
 }       
