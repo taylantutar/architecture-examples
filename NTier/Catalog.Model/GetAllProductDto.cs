@@ -1,5 +1,5 @@
-﻿using System;
-namespace Ecom.Catalog.Model
+﻿
+namespace Catalog.Model
 {
 	public class GetAllProductDto
 	{

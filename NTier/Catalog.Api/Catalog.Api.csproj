@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ecom.Catalog.Service\Ecom.Catalog.Service.csproj">
+    <ProjectReference Include="..\Catalog.Service\Catalog.Service.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

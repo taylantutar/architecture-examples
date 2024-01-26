@@ -1,9 +1,9 @@
 ﻿using System;
-using Ecom.CatalogService.Entity;
+using CatalogService.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace Ecom.Catalog.Service.Data
+namespace Catalog.Service.Data
 {
 	public class CatalogContext : DbContext
 	{

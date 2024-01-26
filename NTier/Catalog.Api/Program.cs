@@ -1,6 +1,6 @@
-﻿using Ecom.Catalog.Service.Abstract;
-using Ecom.Catalog.Service.Concrete;
-using Ecom.Catalog.Service.Data;
+﻿using Catalog.Service.Abstract;
+using Catalog.Service.Concrete;
+using Catalog.Service.Data;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

@@ -1,10 +1,10 @@
-﻿using System;
-using Ecom.Catalog.Model;
-using Ecom.Catalog.Service.Abstract;
-using Ecom.Catalog.Service.Data;
-using Ecom.CatalogService.Entity;
+﻿
+using Catalog.Model;
+using Catalog.Service.Abstract;
+using Catalog.Service.Data;
 
-namespace Ecom.Catalog.Service.Concrete
+
+namespace Catalog.Service.Concrete
 {
 	public class ProductService : IProductService
 	{

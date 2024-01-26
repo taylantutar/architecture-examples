@@ -1,10 +1,10 @@
-using Ecom.Catalog.Model;
-using Ecom.Catalog.Service.Abstract;
+using Catalog.Model;
+using Catalog.Service.Abstract;
 using Ecom.Catalog.Api.Controllers.v1;
 using Moq;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ecom.Catalog.Api.UnitTest
+namespace Catalog.Api.UnitTest
 {
     public class ProductControllerV1Test
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Ecom.CatalogService.Entity
+namespace CatalogService.Entity
 {
 	public class Product
 	{

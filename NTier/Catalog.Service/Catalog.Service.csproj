@@ -17,8 +17,8 @@
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ecom.Catalog.Model\Ecom.Catalog.Model.csproj" />
-    <ProjectReference Include="..\Ecom.Catalog.Entity\Ecom.Catalog.Entity.csproj" />
+    <ProjectReference Include="..\Catalog.Model\Catalog.Model.csproj" />
+    <ProjectReference Include="..\Catalog.Entity\Catalog.Entity.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />

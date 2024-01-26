@@ -1,7 +1,6 @@
-﻿ using System;
-using Ecom.Catalog.Model;
+﻿using Catalog.Model;
 
-namespace Ecom.Catalog.Service.Abstract
+namespace Catalog.Service.Abstract
 {
 	public interface IProductService
 	{

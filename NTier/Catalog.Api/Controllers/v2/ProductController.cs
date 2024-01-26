@@ -1,17 +1,16 @@
 ﻿using System;
-using Ecom.Catalog.Service.Abstract;
+using Catalog.Service.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ecom.Catalog.Api.Controllers.v1
+namespace Ecom.Catalog.Api.Controllers.v2
 {
     [ApiController]
     [Route("api/[controller]")]
     [Route("api/v{version:apiVersion}/[controller]")]
-    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class ProductController : ControllerBase
     {
         private readonly IProductService productService;
-        
 
         public ProductController(IProductService productService)
         {
@@ -19,10 +18,9 @@ namespace Ecom.Catalog.Api.Controllers.v1
         }
 
         [HttpGet]
-        public async Task<ActionResult> Get()
+        public ActionResult Get()
         {
-            var products = await Task.FromResult(productService.GetAll());
-            return Ok(products);
+            return Ok(productService.GetAll());
         }
     }
 }
